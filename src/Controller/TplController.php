@@ -36,4 +36,12 @@ class TplController extends AbstractController
             'objects' => $this->getObjects(),
         ]);
     }
+
+    #[Route('/php', name: 'app_php')]
+    public function php(): Response
+    {
+        return $this->render('tpl/index.html.php', [
+            'objects' => $this->getObjects(),
+        ]);
+    }
 }

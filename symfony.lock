@@ -1,4 +1,7 @@
 {
+    "nyrodev/php-template-bundle": {
+        "version": "dev-master"
+    },
     "symfony/console": {
         "version": "6.2",
         "recipe": {
